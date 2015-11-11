@@ -135,15 +135,16 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
+		'Collective\Html\HtmlServiceProvider',
 
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'books\Providers\AppServiceProvider',
+		'books\Providers\BusServiceProvider',
+		'books\Providers\ConfigServiceProvider',
+		'books\Providers\EventServiceProvider',
+		'books\Providers\RouteServiceProvider',
 
 	],
 
@@ -192,6 +193,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+		'Form'      => 'Collective\Html\FormFacade',
+        'Html'      => 'Collective\Html\HtmlFacade',
 
 	],
 
