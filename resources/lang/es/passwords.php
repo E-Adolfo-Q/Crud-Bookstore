@@ -13,6 +13,10 @@ return [
     |
     */
 
+    "credentials" => array(            
+        'invalid' =>  'El usuario y/o contraseña no es valido'        
+    ),   
+
     'password' => 'Las contraseñas deben contener al menos 6 caracteres y coincidir.',
 
     'user' => 'No podemos encontrar a un usuario con ese correo electrónico.',

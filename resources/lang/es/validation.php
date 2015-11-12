@@ -105,6 +105,15 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+      'email' => 'Correo Electrónico',
+      'password' => 'Contraseña',
+      'checked'  =>  'Recuerda',
+      'login'    =>  'Iniciar Sesión',
+      'recuperar_contraseña' => 'Olvidaste tu contraseña?',
+      'register' => 'Registro', 
+      'register_user' => 'Registro Usuario',
+      'name' => 'Nombre'  
+      ],
 
 ];
